@@ -1,9 +1,11 @@
 # angularpractice
 
-## Command to create ssh key
+## 
+
+<!-- Command to create ssh key
  ssh-keygen -t rsa -b 4096 -C "benjo2021@yahoo.com"
 
-<!-- Command to create agent to auto run
+Command to create agent to auto run
 
 eval "$(ssh-agent -s)"
 
@@ -20,3 +22,5 @@ Git-config --global user.email “benjo2021@yahoo.com”
 To add repo to git
 Paste this on git bash terminal
  -->
+
+ test
