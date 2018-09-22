@@ -7,6 +7,7 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { HomeComponent } from './component/home/home.component';
 import { FormComponent } from './component/form/form.component';
 import { MainComponent } from './component/main/main.component';
+import { Error404Component } from './component/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './component/main/main.component';
     NavbarComponent,
     HomeComponent,
     FormComponent,
-    MainComponent
+    MainComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
