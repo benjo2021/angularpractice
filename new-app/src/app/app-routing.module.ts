@@ -6,10 +6,13 @@ import { HomeComponent } from './component/home/home.component';
 import { MainComponent } from './component/main/main.component';
 import { FormComponent } from './component/form/form.component';
 import { Error404Component } from './component/error404/error404.component';
-
+import { UsersListComponent } from './component/users-list/users-list.component';
 const routes: Routes = [
   {
     path: "home",component : HomeComponent
+  },
+  {
+    path: "users-list",component : UsersListComponent
   },
   {
     path: "main",component: MainComponent
@@ -27,7 +30,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: "",component : MainComponent
+    path: "",component : HomeComponent
   },
   {
     path: "**",component : Error404Component
